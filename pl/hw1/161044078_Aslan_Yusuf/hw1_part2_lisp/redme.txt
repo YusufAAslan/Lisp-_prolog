@@ -1,0 +1,32 @@
+--> How To Compile lisp lexer Code:
+
+Copy All These Steps Into The Terminal
+
+First:
+-->	clisp gpp_lexer.lisp
+
+--> when gpp_lexer.lisp compiled and runned you have to write on the terminal :
+
+Second:
+--> to read input file press this command 
+
+-->	$g++ input.g++
+
+--> And press enter it will reads the file and tokenize it's contents otomatically
+
+
+-->Or you can start  normal terminal interperter by pressing this command
+
+--> 	$g++
+
+
+	---> Note: 1- At the end of each line you have to give a space and then press enter otherwise it might give an error
+		   2- when you start terminal interpreter you have to write at the end "exit" to refer to  end of source code
+	   	   3-"exit" is for terminating in the terminal
+
+
+
+
+
+	<<code summary>>
+>> I wrote gpp_interpreter() funtion which considred to be an interpreter function which takes command input from the user, and decide if it is going to read from file ,or take the input string from the user directly,also I put comments in my code to make it easier to read  

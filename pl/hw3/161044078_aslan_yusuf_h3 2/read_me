@@ -1,0 +1,21 @@
+how to compile ?
+
+For compiling :
+At first  pass this code to terminal
+
+	swipl -s 161044078_aslan_yusuf_h3.pl 
+
+Then:
+for part 1: I wrote  the data base of room information and instructor and time and courses names
+and the capacity	
+
+
+for part 2: I wrote knowldege base about cities and facts about coste between them and rules
+
+first part of part 2:
+It shows the direct flights true or false .
+	
+the rest of part 2:
+I  used  the refference https://www.cpp.edu/~jrfisher/www/prolog_tutorial/2_15A.pl  for this portion of code and  tried to change it according to desired input & outputs.
+	
+to test part 2 :  for example write flight(istanbul,izmir). and enter and it will says if there is flight then True, if not it will says false

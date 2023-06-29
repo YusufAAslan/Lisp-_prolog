@@ -1,0 +1,29 @@
+-->To Compile Flex Code:
+
+-->Copy All These Steps Into The Terminal
+	First:
+-->	lex gpp_lexer.l
+
+	Second:
+-->	gcc lex.yy.c
+
+	Third:
+-->	./a.out
+
+--> when flex compiled and runned you have to write on the terminal this command  :
+
+--> 	$g++ input.txt 
+
+--> And press enter if you want to read from file and tokenize the file content
+
+
+--> or you can press this command
+
+--> 	$g++
+
+--> and press enter in order to start terminal interperter and write on terminal what you want to check
+
+--> At the end if you want to end the interpreter  you have to write "(exit)" in the terminal to refer to the end of source code
+ 
+----->"(exit)" is the terminating string for the terminal
+

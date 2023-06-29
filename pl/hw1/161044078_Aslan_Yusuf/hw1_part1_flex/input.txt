@@ -1,0 +1,8 @@
+( deffun equation (x)
+	(if (equal x 0)
+		1
+		(+ x (equation (- x 1)))
+	) "" ""
+	;;Iam comment
+(list 1 23 45)
+) (exit)

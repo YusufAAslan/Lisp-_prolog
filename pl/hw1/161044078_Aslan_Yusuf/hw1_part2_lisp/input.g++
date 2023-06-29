@@ -1,0 +1,8 @@
+( deffun equation (x) 
+	(if (equal x 0) 
+		1 
+		(+ x (equation (- x 1))) 
+	) "" "" 
+	;;I am  a comment 
+(list 1 2 3 456 )
+) exit 
